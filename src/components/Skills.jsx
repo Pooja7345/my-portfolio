@@ -14,21 +14,21 @@ const skills = [
     description:
       "Building responsive and interactive user interfaces using modern web technologies.",
     icon: FaReact,
-    tags: ["HTML5", "CSS3", "JavaScript", "React"],
+    tags: ["HTML5", "Tailwind CSS", "JavaScript", "React"],
   },
   {
     title: "Backend Development",
     description:
       "Learning and developing server-side applications and backend functionality.",
     icon: FaNodeJs,
-    tags: ["Node.js", "Express.js", "REST APIs"],
+    tags: ["Node.js", "REST APIs"],
   },
   {
     title: "Programming",
     description:
       "Developing programming and problem-solving skills using object-oriented programming concepts.",
     icon: FaJs,
-    tags: ["Java", "JavaScript", "OOP", "Problem Solving"],
+    tags: ["Python", "Numpy", "OOP", "Problem Solving"],
   },
   {
     title: "Database",

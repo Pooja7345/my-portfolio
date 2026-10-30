@@ -1,39 +1,40 @@
 import profile_img from "./profile_img.png";
-import projectImg4 from "../assets/project4.avif";
-import projectImg5 from "../assets/project5.avif";
-import projectImg6 from "../assets/project6.avif";
+import portfolio_img from "../assets/portfolio_img.png";
+import eak_school from "../assets/eak_school.jpg";
+import taletune_app from "../assets/taletune_app.png";
 import PandaRunner from "./PandaRunner.png";
 import amazonClone from "./amazon-clone.png";
-import bankManagement from "./bank-management.png";
+import figure_formatter from "./figure_formatter.png";
+
 
 
 import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTools, FaNodeJs, FaDatabase, FaCloud, FaRobot } from 'react-icons/fa';
 import { FaHtml5, FaCss3Alt, FaJs } from "react-icons/fa";
 export const assets = {
-    profile_img,
+  profile_img,
 }
 
 
 export const aboutInfo = [
-    {
-      icon: FaLightbulb,
-      title: 'Innovative',
-      description: 'I love creating unique solutions to complex problems with cutting-edge technologies.',
-      color: 'text-purple'
-    },
-    {
-      icon: FaPaintBrush,
-      title: 'Design Oriented',
-      description: 'Beautiful design and user experience are at the heart of everything I create.',
-      color: 'text-pink'
-    },
-    {
-      icon: FaCode,
-      title: 'Clean Code',
-      description: 'I write maintainable, efficient code following best practices and modern patterns.',
-      color: 'text-blue'
-    }
-  ];
+  {
+    icon: FaLightbulb,
+    title: 'Innovative',
+    description: 'I love creating unique solutions to complex problems with cutting-edge technologies.',
+    color: 'text-purple'
+  },
+  {
+    icon: FaPaintBrush,
+    title: 'Design Oriented',
+    description: 'Beautiful design and user experience are at the heart of everything I create.',
+    color: 'text-pink'
+  },
+  {
+    icon: FaCode,
+    title: 'Clean Code',
+    description: 'I write maintainable, efficient code following best practices and modern patterns.',
+    color: 'text-blue'
+  }
+];
 
 
 
@@ -80,92 +81,75 @@ export const skills = [
 
 export const projects = [
   {
-  title: "Amazon Clone",
-  description: "A responsive Amazon clone featuring a modern shopping interface with product browsing, categories, and an interactive user experience.",
-  image: amazonClone,
-  tech: ["HTML", "JavaScript", "CSS"],
-  icons: [FaReact, FaJs, FaCss3Alt],
-  demo: "#",
-  code: "#",
-},
+    title: "EAK International School",
+    description: "Modern, responsive K-12 school website built with React, Vite and Tailwind CSS (frontend assignment for Eak Pustak).",
+    image: eak_school,
+    tech: ["HTML5", "React", "TailwindCSS", "React Router", "Framer Motion"],
+    icons: [FaReact, FaNodeJs, FaDatabase],
+    demo: "https://eak-international-school-ruby.vercel.app/",
+    code: "https://github.com/Pooja7345/eak-international-school",
+    status: "Live",
+  },
   {
-   title: "Panda Runner",
+    title: "Panda Runner",
 
-  description: "An interactive browser game where players control a panda, avoid obstacles, and try to achieve the highest score.",
+    description: "An interactive browser game where players control a panda, avoid obstacles, and try to achieve the highest score.",
 
-  image: PandaRunner,
+    image: PandaRunner,
 
-  tech: ["HTML", "CSS", "JavaScript"],
+    tech: ["HTML", "CSS", "JavaScript",],
 
-  icons: [FaHtml5, FaCss3Alt, FaJs],
+    icons: [FaHtml5, FaCss3Alt, FaJs],
 
-  demo: "#",
+    demo: "https://panda-runner-game-seven.vercel.app",
 
-  code: "#",
-},
-  {
-  title: "Bank Management System",
-  description:
-  "A banking management application for managing customer accounts, transactions, deposits, withdrawals, and other banking operations.",
-  image: bankManagement,
-  tech: ["HTML", "CSS", "Java", "MySQL"],
-  icons: [FaDatabase],
-  demo: "#",
-  code: "#",
-},
+    code: "https://github.com/Pooja7345/Panda-runner-game",
+    status: "Live",
+  },
   {
     title: "Portfolio Website",
     description: "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
-    image: projectImg4,
+    image: portfolio_img,
     tech: ["React.js", "Tailwind CSS", "Framer Motion", "Markdown"],
     icons: [FaReact, FaCloud],
     demo: "#",
-    code: "#",
+    code: "https://github.com/Pooja7345/my-portfolio",
+    status: "Live",
+    
   },
   {
-    title: "Chat App",
-    description: "A real-time chat application with group messaging, emojis, and file sharing.",
-    image: projectImg5,
-    tech: ["Socket.IO", "React", "Node.js", "MongoDB"],
-    icons: [FaReact, FaNodeJs, FaDatabase ],
+    title: "Amazon Clone",
+    description: "A responsive Amazon clone featuring a modern shopping interface with product browsing, categories, and an interactive user experience.",
+    image: amazonClone,
+    tech: ["HTML", "JavaScript", "CSS"],
+    icons: [FaReact, FaJs, FaCss3Alt],
     demo: "#",
-    code: "#",
+    code: "https://github.com/Pooja7345/Amazon-Clone",
+    status: "clone project",
   },
   {
-    title: "AI Image Generator",
-    description: "Generate images using AI prompts powered by OpenAI's DALL·E model and Cloudinary.",
-    image: projectImg6,
+    title: "Taletune App",
+    description: "TaleTune — Create stories together, bring characters to life with your voices, and share your own audiobooks with the world.",
+    image: taletune_app,
     tech: ["React", "OpenAI API", "Cloudinary", "Tailwind CSS"],
     icons: [FaRobot, FaReact, FaCloud],
     demo: "#",
-    code: "#",
-  }
-];
+    code: "https://github.com/Pooja7345/Taletune",
+    status: "Under Development",
+  },
+
+  {
+    title: "Figure Formatter",
+    description:
+      "A Python-based project for cleaning scientific figures and reconstructing missing image regions, developed with AI assistance as part of my learning journey.",
+    image: figure_formatter,
+    tech: ["Python", "Presentation handling", "NumPy"],
+    icons: [FaDatabase],
+    demo: "#",
+    code: "https://github.com/Pooja7345/Figure-formatter",
+    status: "Under Development",
+  },
 
 
-export const workData = [
-  {
-    role: "Senior Frontend Developer",
-    company: "TechCorp Inc.",
-    duration: "2020 - Present",
-    description:
-      "Leading frontend development for enterprise clients, implementing modern frameworks, and mentoring junior developers.",
-    color: "purple"
-  },
-  {
-    role: "Web Developer",
-    company: "Digital Solutions LLC",
-    duration: "2018 - 2020",
-    description:
-      "Developed and maintained web applications for various clients, focusing on responsive design and performance optimization.",
-    color: "pink"
-  },
-  {
-    role: "Junior Developer",
-    company: "StartUp Ventures",
-    duration: "2016 - 2018",
-    description:
-      "Started my career building basic websites and gradually took on more complex projects as I expanded my skill set.",
-    color: "blue"
-  }
+
 ];

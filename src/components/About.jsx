@@ -19,7 +19,7 @@ const aboutInfo = [
   {
     title: "Programming",
     description:
-      "Developing programming and problem-solving skills using Java and JavaScript.",
+      "Developing programming and problem-solving skills using Python and Numpy.",
     icon: <FaJs />,
   },
   {
@@ -87,8 +87,8 @@ const About = () => {
                 with a strong interest in web development and software
                 development. As a fresher, I have been continuously improving
                 my programming and development skills by learning and working
-                with technologies such as HTML, CSS, JavaScript, Java, React,
-                Node.js, and GitHub.
+                with technologies such as HTML, CSS, JavaScript, React,
+                Node.js, Python, SQL and GitHub.
               </p>
 
               <p className="text-gray-300 mb-6">
